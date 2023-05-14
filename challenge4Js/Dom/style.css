@@ -1,0 +1,103 @@
+  * {
+    background-color: hsla(240, 19%, 92%, 0.877);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0%;
+  }
+  .bodyArea {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Header styles */
+.bodyArea {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  justify-content: center;
+}
+
+.bodyArea h1 {
+  justify-content: center;
+  text-align: center;
+  color: #030101;
+  font-size: 36px;
+}
+
+.bodyArea h2 {
+  font-size: 24px;
+  text-align: center;
+  color: #030101;
+}
+
+.qwetu-cars {
+  float: right;
+  max-width: 200px;
+  margin-top: -50px;
+}
+ 
+ 
+/* Form styles */
+.form-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.form-control-email,
+.form-control-password,
+.form-control-identity,
+.form-control-country,
+.form-control-language {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.form-control-email:focus,
+.form-control-password:focus,
+.form-control-identity:focus,
+.form-control-country:focus,
+.form-control-language:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px 0px #333;
+}
+
+.form-check-input {
+  margin: 0px;
+  align-items: start;
+  justify-content: flex-start;
+}
+
+.btn-primary {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #555;
+}

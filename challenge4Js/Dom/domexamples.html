@@ -1,0 +1,85 @@
+<! DOCTYPE html>
+<html lang="en>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale =1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=" />
+  <title>Movies</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="../Dom/domexample.js"></script>
+</head>
+<body>
+  <div class="html" id="container">
+    <header class="bodyArea">
+      <div id="page-banner">
+        <h1>Welcome To Qwetu Investments</h1>
+        <h2>Your Listening Caring Patner</h2>
+        <img class="qwetu-cars" src="../images/image1.png" />
+      </div>
+    </header>
+    <section class="form-content">
+      <div class="sidebar-container">
+        <p>Sign-Up details</p>
+      </div>
+      <form id="registration-form" class="fa-registration-form">
+        <div class="form-group">
+          <label for="inputEmail">EmailAdress</label>
+          <input
+            type="email"
+            class="form-control-email"
+            id="inputEmail"
+            placeholder="Enter email"
+          />
+          <small id="emailHelp" class="form-text">
+            Your email is safe with Us</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="inputPassword">Password</label>
+          <input
+            type="password"
+            class="form-control-password"
+            id="inputPassword"
+            placeholder="Enter Your Password"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputIdentityNumber">Identity Number</label>
+          <input
+            type="text"
+            class="form-control-identity"
+            id="inputIdentityNumber"
+            placeholder="Enter Your Identity Number"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputCoutry">Country</label>
+          <select class="form-control-country" id="inputCoutry">
+            <option>Kenya</option>
+            <option>Uganda</option>
+            <option>Tanzania</option>
+            <option>Rwanda</option>
+            <option>Ethiopia</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="inputLanguage">Language Spoken</label>
+          <input
+            type="text"
+            class="form-control-language"
+            id="inputLanguage"
+            placeholder="Enter Your Language"
+          />
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="CheckInput" />
+          <label class="form-check-label" for="exampleCheck"
+            >Make Sure You Have Input The Correct Details</label
+          >
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+  </div>
+</body>
