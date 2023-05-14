@@ -1,0 +1,13 @@
+#gitignore files 
+/vscode
+
+# ignore temporary files
+* .temp
+* .log
+# Ignore build artifacts
+/build
+/dist
+/node_modules
+
+# Ignore environment-specific configuration files
+/config/*.env
