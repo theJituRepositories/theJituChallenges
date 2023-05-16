@@ -1,0 +1,9 @@
+.feedback-trail{
+display: flex;
+justify-content: center;
+
+}
+.feedback-auto {
+display: flex;
+justify-content: center;
+}
